@@ -35,6 +35,7 @@ body.activated {
     
 }
 
+
 .info {
     margin-top: 10px;
     display: flex;
@@ -74,7 +75,9 @@ body.activated {
     font-weight: bold;
     margin-top: 10px;
     border: none;
+    
 }
+
 
 .catpics {
     display: flex;
@@ -85,6 +88,7 @@ body.activated {
     text-align: center;
     min-width: 0;
     color: white;
+    
 }
 
 
@@ -92,6 +96,8 @@ body.activated {
     height: 150px;
     width: 250px;
     max-width: 100%;
+    border: solid 5px black;
+    border-radius: 50px;
 }
 
 .cath {
@@ -125,8 +131,3 @@ body.activated {
     background-color: black;
 }
 
-@media screen and (max-width: 800px) {
-    .left, .main, .right{
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-}
-}
