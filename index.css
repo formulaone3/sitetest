@@ -64,8 +64,8 @@ body.activated {
     
 }
 
-.infobtn {
-    background-color: rgba(0,0,255,0.7);
+.infobtn, .btn2 {
+    background-color: rgba(50, 92, 168, 0.8);
     border-radius: 20px;
     width: 130px;
     padding: 10px;
