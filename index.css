@@ -44,7 +44,7 @@ body.activated {
     color: white;
     padding: 20px;
     max-width: 100%;
-    overflow: hidden;
+    -overflow: hidden;
 }
 
 .infoflex {
@@ -55,14 +55,12 @@ body.activated {
     
 }
 
-.infoi {
+.info img {
     height: auto;
-    width: 350px;
+    max-width: 100%;
+    margin: auto;
     padding-right: 50px;
-    -position: absolute;
-    -right: 50px;
-    -top: 180px;
-    
+    overflow: hidden;
 }
 
 .infobtn, .btn2 {
@@ -108,20 +106,26 @@ body.activated {
 
 .quote {
     background-color: lightgrey;
-    height: 300px;
+    height: auto;
     text-align: center;
     padding: 80px 250px;
     font-size: 2.5rem;
     font-style: italic;
+    max-width: 100%;
+    
 }
 
 .signupflex {
     display: flex;
     justify-content: space-between;
-    margin: 50px 250px;
+    align-items: center;
+    margin: 50px 150px;
     background-color: lightgray;
     padding: 20px 50px;
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+   
 }
 
 .foot {
